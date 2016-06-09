@@ -26,7 +26,7 @@ add_message_files(
   FILES
   Descriptor.msg
   Hsb.msg
-  StateData.msg
+  LightingStateData.msg
 )
 
 ## Generate services in the 'srv' folder
