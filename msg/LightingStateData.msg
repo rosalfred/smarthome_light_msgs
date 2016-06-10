@@ -11,9 +11,3 @@ geometry_msgs/Pose pose	        # A representation of pose in free space, compos
 Hsb hsb                         # Hue/Saturation/Brightness values of the light
 
 smarthome_msgs/DeviceInfo descriptor  # Hardware information
-
-# State status constants
-uint32 UNKNOWN=0
-uint32 INIT=1
-uint32 ENABLE=2
-uint32 SHUTDOWN=3
