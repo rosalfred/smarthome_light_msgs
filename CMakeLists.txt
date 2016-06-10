@@ -4,7 +4,7 @@ project(smarthome_light_msgs)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs geometry_msgs)
+find_package(catkin REQUIRED COMPONENTS message_generation std_msgs sensor_msgs geometry_msgs smarthome_msgs)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -43,6 +43,7 @@ generate_messages(
   std_msgs
   sensor_msgs
   geometry_msgs
+  smarthome_msgs
 )
 
 ###################################
@@ -57,7 +58,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES light_msgs
-  CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs
+  CATKIN_DEPENDS message_runtime std_msgs sensor_msgs geometry_msgs smarthome_msgs
 # roscpp rospy std_msgs
 #  DEPENDS system_lib
 )

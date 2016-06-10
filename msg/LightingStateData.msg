@@ -3,14 +3,14 @@
 Header header                   # timestamp is the time the illuminance was measured
                                 # frame_id is the location and direction of the reading
 
-uint8 state                     # State    0: Unknown, 1: Init, 2: Enable, 4: Disable, 3: Shutdown
+smarthome_msgs/NodeState state  # State
 
 sensor_msgs/Illuminance illuminance   # Measurement of the photometric illuminance in Lux
-geometry_msgs/Pose pose		# A representation of pose in free space, composed of postion and orientation. 
+geometry_msgs/Pose pose	        # A representation of pose in free space, composed of postion and orientation. 
 
 Hsb hsb                         # Hue/Saturation/Brightness values of the light
 
-Descriptor descriptor		# Hardware information
+smarthome_msgs/DeviceInfo descriptor  # Hardware information
 
 # State status constants
 uint32 UNKNOWN=0
