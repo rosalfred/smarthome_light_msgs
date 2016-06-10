@@ -2,8 +2,8 @@
 Changelog for package smarthome_light_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2016-06-11)
+------------------
 * Upgrade dependency
 * Rename statedata.
 * Fix dependency.
