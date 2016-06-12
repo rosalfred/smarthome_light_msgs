@@ -24,7 +24,6 @@ add_message_files(
   DIRECTORY
   msg
   FILES
-  Descriptor.msg
   Hsb.msg
   LightingStateData.msg
 )
