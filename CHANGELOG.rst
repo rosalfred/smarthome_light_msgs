@@ -2,6 +2,9 @@
 Changelog for package smarthome_light_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.1.2 (2016-06-22)
 ------------------
 * Remove unused message.
