@@ -1,6 +1,6 @@
 ## State data light message
 
-Header header                         # timestamp is the time the illuminance was measured
+std_msgs/Header header                         # timestamp is the time the illuminance was measured
                                       # frame_id is the location and direction of the reading
 
 smarthome_msgs/NodeState state        # State
