@@ -28,7 +28,7 @@ find_package(rosidl_default_generators REQUIRED)
 ## Generate messages in the 'msg' folder
 set(msg_files
   "msg/Hsb.msg"
-  "msg/LightingStateData.msg"
+  "msg/StateData.msg"
 )
 
 ## Generate services in the 'srv' folder
@@ -40,7 +40,7 @@ set(srv_files
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES 
+  DEPENDENCIES
   builtin_interfaces
   std_msgs
   sensor_msgs
@@ -132,5 +132,5 @@ include_directories(
 ## Declare things to be passed to dependent projects
 ## CONFIG_EXTRAS: uncomment this if you package contains argument
 ament_package(
-#  CONFIG_EXTRAS 
+#  CONFIG_EXTRAS
 )
