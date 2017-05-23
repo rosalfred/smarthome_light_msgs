@@ -28,6 +28,7 @@ find_package(rosidl_default_generators REQUIRED)
 ## Generate messages in the 'msg' folder
 set(msg_files
   "msg/Hsb.msg"
+  "msg/LightAction.msg"
   "msg/StateData.msg"
 )
 
